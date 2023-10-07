@@ -1,0 +1,149 @@
+html{
+	background: url(https://upload.wikimedia.org/wikipedia/commons/2/25/Monstrous_craws%2C_at_a_new_coalition_feast.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body{
+	margin: 0;
+	width: 100%;
+	min-height: 100%;
+}
+.ul1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4654A8;
+	position: fixed;
+    top: 0;
+    width: 100%;
+	opacity: 0.75;
+	z-index: 101;
+}
+a{
+	text-decoration: none;
+	color: #FFE209;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+}
+.li1 {
+    float: left;
+	border-right: 1px solid white;
+}
+.li1:nth-last-child(2){
+	float: right;
+}
+.li1:nth-last-child(3){
+	float: right;
+	border-right: none;
+}
+.li1:last-child{
+	float: right;
+	border-left: 1px solid white;
+}
+.li1 a {
+    display: block;
+    padding: 20px;
+}
+.li1 a:hover:not(.active) {
+    background-color: #BDA70A;
+	color: #3A1381;
+}
+.active {
+    background-color: #BDA70A;
+	color: #3A1381;
+}
+.footer{
+    position: relative;
+	clear: both;
+    bottom: 0;
+    width: 100%;
+	padding-top: 4px;
+	padding-bottom: 12px;
+    background-color: #177272;
+    color: white;
+	height: 3em;
+    text-align: center;
+	opacity: 0.75;
+	z-index: 101;
+	margin-top: 68%;
+}
+.p1{
+	float: left;
+	list-style-type: none;
+	font-family: Helvetica;
+	text-align:left;
+	margin-left: -25px;
+}
+.p2{
+	float: right;
+	list-style-type: none;
+	font-family: Helvetica;
+}
+.p3{
+	text-align: center;
+	list-style-type: none;
+	font-family: Helvetica;
+	font-size: 12px;
+}
+.p3>a{
+	text-align: center;
+	list-style-type: none;
+	font-family: Helvetica;
+	font-size: 12px;
+}
+.div1{
+	float: left;
+	background-color: #4ea6c3;
+	padding: 20px 30px 20px 0px;
+	margin: 95px 15px 15px 15px;
+	width: 45%;
+	opacity: 0.85;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+.div2{
+	float: right;
+	background-color: #4ea6c3;
+	padding: 20px 30px 20px 0px;
+	margin: 95px 15px 15px 15px;
+	width: 45%;
+	opacity: 0.85;
+	position: absolute;
+	right: 0%;
+	top: 0%
+}
+.div3{
+	background-color: skyblue;
+	margin: auto;
+	padding: 20px;
+	padding-top: 20px;
+	width: 75%;
+	opacity: 0.75;
+	position: absolute;
+	bottom: -250px;
+	right: 12%;
+	z-index: 100s;
+	margin-top: 100px;
+}
+h1{
+	font-family: Trebuchet MS;
+	margin-top: 0px;
+}
+p{
+	font-family: Helvetica;
+	font-size: 18px;
+	text-align: justify;
+}
+img{
+	display: block;
+    margin: auto;
+	border-radius: 50%;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+	border: 3px solid white;
+}
